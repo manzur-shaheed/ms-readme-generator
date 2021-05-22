@@ -1,0 +1,23 @@
+{
+  "name": "ms-readme-generator",
+  "version": "1.0.0",
+  "description": "Readme MD generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzur-shaheed/ms-readme-generator.git"
+  },
+  "keywords": [
+    "cli",
+    "markdown"
+  ],
+  "author": "shaheed_manzur@yahoo.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manzur-shaheed/ms-readme-generator/issues"
+  },
+  "homepage": "https://github.com/manzur-shaheed/ms-readme-generator#readme"
+}
