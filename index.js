@@ -1,14 +1,16 @@
-// ask questions
+// main program
 const inquirer = require("inquirer");
-const questions = require("./bin/questions");
-const generateMD = require("./bin/generateMD");
-const saveMD = require("./bin/saveMD");
+const questions = require("./utils/questions");
+const generateMD = require("./utils/generateMD");
+const saveMD = require("./utils/saveMD");
 
-// generate markdown from answers
+// Prompt questions, generate markdown from answers, save and open md file
 async function main() {
     const answers = await inquirer .prompt(questions);
-    const markDown = generateMD(answers));
-    await saveMD(markDown);
-    open()
+    const markDown = generateMD(answers);
+    const fileName = await saveMD(markDown);
+    open(fileName);
 }
-// save file
+
+// invoke
+main();

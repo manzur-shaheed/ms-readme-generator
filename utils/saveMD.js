@@ -7,6 +7,7 @@ const saveMDFile = (str) => {
             console.log("File Saved!");
         }
         .catch(console.log);
+    return fileName;
 };
 
 module.export = saveMDFile;
