@@ -27,7 +27,7 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'test',
+        name: 'projTest',
         message: 'Please enter test instructions: ',
       },
       {
