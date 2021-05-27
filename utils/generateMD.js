@@ -1,12 +1,13 @@
 // module to generate readme text
-const lic = require('./licenses');
+const licences = require('./licenses.js');
+const saveMD = require('./saveMD.js');
 
 function generateMD(response) {
-    var licText = lic.getLicText(response.projLic);
+    var licText = licences(response.projLic);
     const markdown = `
 # Title
 # ${response.projName}
-${badge}
+
 ## Description
 ${response.projDesc}
 # Owner
@@ -28,6 +29,7 @@ ${response.projGit}
 # Email
 ${response.projEmail}
 `;
+    saveMD(markdown);
 }
 
 module.exports = generateMD;

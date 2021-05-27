@@ -59,4 +59,4 @@ const questions = [
 ];
 
 // export this 
-module.export = questions;
+module.exports = questions;
