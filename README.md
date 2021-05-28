@@ -1,5 +1,6 @@
 # ms-readme-generator
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 Command line interface application to create a project readme markdown file.
 ## Installation
 Code: [Code](https://github.com/manzur-shaheed/ms-readme-generator) 
