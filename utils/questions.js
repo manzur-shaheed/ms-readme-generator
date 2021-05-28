@@ -55,6 +55,11 @@ const questions = [
         type: 'input',
         name: 'projEmail',
         message: 'Please enter your email address: ',
+      },
+      {
+        type: 'input',
+        name: 'projAck',
+        message: 'Please enter any acknowledgement texts: ',
       }
 ];
 

@@ -1,4 +1,4 @@
-// function to return link for license
+// function to return license text
 const MIT = `MIT License
 
 Copyright (c) [year] [fullname]

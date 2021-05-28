@@ -10,4 +10,4 @@ const saveMD = (str) => {
     // return fileName;
 };
 
-module.export = saveMD;
+module.exports = saveMD;
